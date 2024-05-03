@@ -190,6 +190,16 @@ const questions = [
         answer: "Dolor"
     },
     {
+        question: "¿Qué se debe hacer si una víctima no responde a estímulos verbales?",
+        options: [
+            "Dejarla y buscar ayuda",
+            "Hablarle más fuerte",
+            "Preguntarle si está bien",
+            "Administrarle un analgésico"
+        ],
+        answer: "Hablarle más fuerte"
+    },
+    {
         question: "¿Cuál es uno de los lugares para buscar el pulso central?",
         options: [
             "Muñeca",
@@ -272,45 +282,29 @@ const questions = [
     // Agregar más preguntas aquí...
 ];
 
-// Función para obtener una pregunta aleatoria que no se haya mostrado previamente
-function getRandomQuestion() {
-    // Filtrar las preguntas que no se han mostrado
-    const remainingQuestions = questions.filter(question => !question.displayed);
-    
-    // Verificar si quedan preguntas por mostrar
-    if (remainingQuestions.length === 0) {
-        // Si no quedan preguntas por mostrar, reiniciar el estado de mostrado de todas las preguntas
-        questions.forEach(question => {
-            question.displayed = false;
-        });
-        // Volver a obtener la lista de preguntas restantes
-        return getRandomQuestion();
-    }
-    
-    // Seleccionar una pregunta aleatoria de las preguntas restantes
-    const randomIndex = Math.floor(Math.random() * remainingQuestions.length);
-    const randomQuestion = remainingQuestions[randomIndex];
-    
-    // Marcar la pregunta seleccionada como mostrada
-    randomQuestion.displayed = true;
-    
-    return randomQuestion;
-}
-
-// Función para obtener las opciones de una pregunta en un orden aleatorio
-function getShuffledOptions(question) {
-    const options = [...question.options];
+// Función para mezclar el orden de las opciones
+function shuffleOptions(options) {
     for (let i = options.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [options[i], options[j]] = [options[j], options[i]];
     }
-    return options;
 }
 
-// Obtener una pregunta aleatoria y sus opciones
-const currentQuestion = getRandomQuestion();
-const shuffledOptions = getShuffledOptions(currentQuestion);
+// Función para mezclar el orden de las preguntas
+function shuffleQuestions(questions) {
+    for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [questions[i], questions[j]] = [questions[j], questions[i]];
+    }
+}
 
+// Mezclar el orden de las preguntas
+shuffleQuestions(questions);
+
+// Mezclar el orden de las opciones para cada pregunta
+questions.forEach(question => {
+    shuffleOptions(question.options);
+});
 
 
 let currentQuestion = 0;
