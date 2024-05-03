@@ -190,16 +190,6 @@ const questions = [
         answer: "Dolor"
     },
     {
-        question: "¿Qué se debe hacer si una víctima no responde a estímulos verbales?",
-        options: [
-            "Dejarla y buscar ayuda",
-            "Hablarle más fuerte",
-            "Preguntarle si está bien",
-            "Administrarle un analgésico"
-        ],
-        answer: "Hablarle más fuerte"
-    },
-    {
         question: "¿Cuál es uno de los lugares para buscar el pulso central?",
         options: [
             "Muñeca",
