@@ -93,3 +93,18 @@ h2 {
 .reset-btn:hover {
     background-color: #2980b9;
 }
+
+.category-menu {
+  margin-bottom: 20px;
+}
+
+.category-menu label {
+  font-weight: bold;
+}
+
+.category-menu select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
