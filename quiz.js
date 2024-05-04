@@ -83,16 +83,5 @@ async function startQuiz() {
     displayQuestion();
 }
 
-// Función para reiniciar el quiz
-function resetQuiz() {
-    currentQuestion = 0;
-    score = 0;
-    startQuiz();
-}
-
-// Evento click para el botón de reset
-document.getElementById('reset-button').addEventListener('click', resetQuiz);
-
-
 // Llamar a la función principal para comenzar el quiz
-//startQuiz();
+startQuiz();
