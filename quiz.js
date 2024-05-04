@@ -104,7 +104,7 @@ function checkAnswer(selectedOption) {
 const categorySelector = document.getElementById('category-selector');
 categorySelector.addEventListener('change', function() {
     const category = this.value;
-    document.getElementById("start-button").addEventListener('click', function() {
+    document.getElementById('start-button').addEventListener('click', function() {
         if (category === "anatomia") {
             loadAnatomiaQuestions();
         } else if (category === "primeros_auxilios") {
