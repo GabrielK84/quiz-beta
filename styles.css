@@ -1,3 +1,58 @@
+/* styles.css */
+/* Estilos para el index.html */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1; /* Color de fondo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333; /* Color del título principal */
+    margin-bottom: 20px; /* Espacio debajo del título principal */
+}
+
+h2 {
+    color: #555; /* Color del subtítulo */
+    margin-bottom: 10px; /* Espacio debajo del subtítulo */
+}
+
+.category-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#category-select {
+    margin-right: 10px; /* Espacio entre el desplegable y el botón */
+}
+
+#start-button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#start-button:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+}
+
+
+/* Estilos para el quiz.html */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #2c3e50; /* Fondo más oscuro */
