@@ -59,6 +59,9 @@ function displayQuestion() {
         button.onclick = () => checkAnswer(option);
         optionsElement.appendChild(button);
     });
+
+    // Mostrar contador de preguntas
+    document.getElementById('question-counter').textContent = `${currentQuestion + 1} de ${questions.length}`;
 }
 
 // Función para verificar la respuesta seleccionada por el usuario
