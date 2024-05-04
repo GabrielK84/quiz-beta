@@ -75,3 +75,20 @@ function checkAnswer(selectedOption) {
         document.getElementById('quiz-end-message').textContent = "¡Fin del quiz! Tu puntuación es: " + score;
     }
 }
+document.addEventListener('DOMContentLoaded', function() {
+    const startButton = document.getElementById('start-button');
+    
+    startButton.addEventListener('click', function() {
+        const selectedCategory = document.getElementById('category-select').value;
+        // Redireccionar a la página de preguntas según la categoría seleccionada
+        if (selectedCategory === 'Anatomía') {
+            window.location.href = 'quiz.html?category=anatomia';
+        } else if (selectedCategory === 'Primeros Auxilios') {
+            window.location.href = 'quiz.html?category=primeros_auxilios';
+        } else {
+            window.location.href = 'quiz.html'; // Cualquier otra opción lleva a todas las preguntas
+        }
+    });
+});
+
+
