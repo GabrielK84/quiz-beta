@@ -83,5 +83,13 @@ async function startQuiz() {
     displayQuestion();
 }
 
+// Función para reiniciar el quiz
+function resetQuiz() {
+    currentQuestion = 0;
+    score = 0;
+    startQuiz();
+}
+
+
 // Llamar a la función principal para comenzar el quiz
 startQuiz();
