@@ -26,15 +26,15 @@ h2 {
     margin-bottom: 10px; /* Espacio debajo del subtítulo */
 }
 
-.category-selection {
+/*.category-selection {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #category-select {
-    margin-right: 10px; /* Espacio entre el desplegable y el botón */
-}
+    margin-right: 10px; /*Espacio entre el desplegable y el botón
+}*/
 
 #start-button {
     background-color: #007bff; /* Color de fondo del botón */
