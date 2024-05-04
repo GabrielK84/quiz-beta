@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #2c3e50; /* Fondo más oscuro */
@@ -78,33 +80,21 @@ h2 {
     transform: translateX(-50%); /* Centrado horizontalmente */
 }
 
-.reset-btn {
+#reset-button {
     position: absolute;
     top: 10px;
     right: 10px;
+    font-size: 16px;
+    font-weight: bold;
     padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
     border: none;
     border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.reset-btn:hover {
+#reset-button:hover {
     background-color: #2980b9;
 }
-
-.category-menu {
-  margin-bottom: 20px;
-}
-
-.category-menu label {
-  font-weight: bold;
-}
-
-.category-menu select {
-  padding: 8px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
