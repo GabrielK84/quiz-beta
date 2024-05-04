@@ -9,13 +9,24 @@
 <body>
     <div class="container">
         <h1>Quiz</h1>
-        <select id="category-selector">
-            <option value="anatomia">Anatomía</option>
-            <option value="primeros_auxilios">Primeros Auxilios</option>
-            <option value="todos">Todos</option>
-        </select>
-        <button id="start-button">Comenzar</button>
+        <h2 id="question"></h2>
+        <div id="options"></div>
+        <div id="score-container">
+            <span id="score">Puntuación: </span><span id="score-value">0</span>
+        </div>
+        <div id="quiz-end-message"></div>
+        <button id="reset-button" onclick="window.location.href='index.html'">Reset</button>
     </div>
     <script src="quiz.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const category = urlParams.get('category');
+
+            // Aquí puedes cargar las preguntas correspondientes según la categoría
+            // Por ejemplo, podrías usar una función para cargar las preguntas desde un JSON
+            // dependiendo del valor de 'category'.
+        });
+    </script>
 </body>
 </html>
