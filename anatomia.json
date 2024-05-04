@@ -1,13 +1,24 @@
-[
-  {
-    "question": "¿Cuál es la función principal del corazón?",
-    "options": ["Bombeo de sangre", "Digestión de alimentos", "Producción de hormonas", "Respiración"],
-    "answer": "Bombeo de sangre"
-  },
-  {
-    "question": "¿Cuántos huesos tiene el cuerpo humano adulto?",
-    "options": ["206", "300", "100", "500"],
-    "answer": "206"
-  }
-
-]
+{
+  "questions": [
+    {
+      "question": "¿Cuál es el órgano más grande del cuerpo humano?",
+      "options": [
+        "Corazón",
+        "Pulmón",
+        "Hígado",
+        "Piel"
+      ],
+      "answer": "Piel"
+    },
+    {
+      "question": "¿Cuántos huesos tiene el cuerpo humano en promedio?",
+      "options": [
+        "206",
+        "300",
+        "100",
+        "500"
+      ],
+      "answer": "206"
+    }
+  ]
+}
