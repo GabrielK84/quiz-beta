@@ -1,46 +1,46 @@
 [
     {
-        "question": "¿Cuál es la función principal de la anatomía descriptiva?",
+        "question": "¿Cuál de las siguientes ramas de la anatomía se enfoca en estudiar las estructuras que pueden observarse a simple vista?",
         "options": [
-            "Estudiar las funciones de las células",
-            "Estudiar las modificaciones que sufren las estructuras orgánicas bajo la acción de las enfermedades",
-            "Estudiar la forma, situación y composición de las estructuras",
-            "Estudiar las funciones de los diferentes sistemas del cuerpo"
+            "Anatomía Topográfica",
+            "Anatomía Microscópica",
+            "Anatomía Descriptiva",
+            "Anatomía Comparada"
         ],
-        "answer": "Estudiar la forma, situación y composición de las estructuras"
+        "answer": "Anatomía Descriptiva"
     },
     {
-        "question": "¿Qué nivel de organización estructural se refiere a las células?",
+        "question": "¿Qué nivel de organización estructural se refiere a la organización de varios órganos para desempeñar funciones específicas?",
         "options": [
-            "Nivel químico",
-            "Nivel de organismo",
-            "Nivel celular",
-            "Nivel tisular"
+            "Nivel Celular",
+            "Nivel de Sistema o Aparato",
+            "Nivel Tisular",
+            "Nivel de Organismo"
         ],
-        "answer": "Nivel celular"
+        "answer": "Nivel de Sistema o Aparato"
     },
     {
         "question": "¿Cuál es la función principal de los eritrocitos en la sangre?",
         "options": [
+            "Transportar oxígeno en el cuerpo",
             "Combatir enfermedades",
-            "Coagular la sangre",
             "Regular la temperatura corporal",
-            "Transportar oxígeno en el cuerpo"
+            "Coagular la sangre"
         ],
         "answer": "Transportar oxígeno en el cuerpo"
     },
     {
-        "question": "¿Qué orgánulo celular es responsable de procesar y distribuir proteínas a todas las partes de la célula?",
+        "question": "¿Cuál de los siguientes orgánulos es responsable de fabricar proteínas en la célula?",
         "options": [
-            "Aparato de Golgi",
             "Mitocondria",
-            "Centriolo",
-            "Lisosoma"
+            "Lisosoma",
+            "Ribosoma",
+            "Retículo Endoplásmico"
         ],
-        "answer": "Aparato de Golgi"
+        "answer": "Ribosoma"
     },
     {
-        "question": "¿Cuál de las siguientes moléculas se clasifica como una biomolécula inorgánica?",
+        "question": "¿Cuál de las siguientes moléculas forma parte de los seres vivos y se clasifica como una biomolécula inorgánica?",
         "options": [
             "Proteínas",
             "Carbohidratos",
@@ -50,383 +50,333 @@
         "answer": "Sales minerales"
     },
     {
-        "question": "¿Qué nivel de organización estructural se refiere a la organización de varios órganos para desempeñar funciones específicas?",
+        "question": "¿Cuál es el nivel de organización estructural donde las células se organizan para formar los tejidos del organismo?",
         "options": [
-            "Nivel de organismo",
-            "Nivel tisular",
-            "Nivel de sistema o aparato",
-            "Nivel celular"
+            "Nivel Celular",
+            "Nivel de Sistema o Aparato",
+            "Nivel Tisular",
+            "Nivel de Organismo"
         ],
-        "answer": "Nivel de sistema o aparato"
+        "answer": "Nivel Tisular"
     },
     {
-        "question": "¿Cuál es el tipo de tejido que forma parte de los músculos?",
-        "options": [
-            "Epitelial",
-            "Conjuntivo o conectivo",
-            "Muscular",
-            "Nervioso"
-        ],
-        "answer": "Muscular"
-    },
-    {
-        "question": "¿Cuál es la principal función de los lisosomas en la célula?",
+        "question": "¿Qué función principal tienen los lisosomas en la célula?",
         "options": [
             "Digerir las biomoléculas",
-            "Producir proteínas",
-            "Proporcionar energía a la célula",
-            "Transportar sustancias a través de su membrana"
+            "Fabricar proteínas",
+            "Proporcionar energía",
+            "Regular la temperatura"
         ],
         "answer": "Digerir las biomoléculas"
     },
     {
-        "question": "¿Qué tipo de moléculas sirven de combustible en los procesos metabólicos?",
+        "question": "¿Cuál de los siguientes tejidos se encarga de la transmisión de impulsos nerviosos?",
+        "options": [
+            "Tejido Muscular",
+            "Tejido Nervioso",
+            "Tejido Óseo",
+            "Tejido Epitelial"
+        ],
+        "answer": "Tejido Nervioso"
+    },
+    {
+        "question": "¿Cuál de las siguientes moléculas orgánicas sirve como combustible en los procesos metabólicos?",
         "options": [
             "Proteínas",
             "Carbohidratos",
             "Lípidos",
-            "Ácidos nucleicos"
+            "Ácidos Nucleicos"
         ],
         "answer": "Carbohidratos"
     },
     {
-        "question": "¿Cuál de las siguientes ramas de la anatomía se enfoca en estudiar las estructuras que no se pueden ver a simple vista?",
+        "question": "¿Cuál es la función principal de los ribosomas en la célula?",
         "options": [
-            "Anatomía descriptiva",
-            "Anatomía topográfica",
-            "Anatomía microscópica",
-            "Anatomía comparada"
+            "Fabricar proteínas",
+            "Proporcionar energía",
+            "Digerir las biomoléculas",
+            "Regular la temperatura"
         ],
-        "answer": "Anatomía microscópica"
+        "answer": "Fabricar proteínas"
     },
     {
-        "question": "¿Cuál es la principal función de las plaquetas en la sangre?",
-        "options": [
-            "Transportar oxígeno",
-            "Combatir enfermedades",
-            "Coagular la sangre",
-            "Regular la temperatura corporal"
-        ],
-        "answer": "Coagular la sangre"
-    },
-    {
-        "question": "¿Qué nivel de organización estructural se refiere a los tejidos?",
-        "options": [
-            "Nivel celular",
-            "Nivel de sistema o aparato",
-            "Nivel tisular",
-            "Nivel de organismo"
-        ],
-        "answer": "Nivel tisular"
-    },
-    {
-        "question": "¿Cuál es el tipo de tejido que forma parte del sistema nervioso?",
-        "options": [
-            "Epitelial",
-            "Conjuntivo o conectivo",
-            "Muscular",
-            "Nervioso"
-        ],
-        "answer": "Nervioso"
-    },
-    {
-        "question": "¿Qué orgánulo celular es conocido como la 'central energética' de la célula?",
+        "question": "¿Cuál de los siguientes órganos es responsable de procesar y distribuir proteínas a todas las partes de la célula?",
         "options": [
             "Mitocondria",
             "Lisosoma",
             "Ribosoma",
-            "Retículo endoplasmático"
+            "Aparato de Golgi"
         ],
-        "answer": "Mitocondria"
+        "answer": "Aparato de Golgi"
     },
     {
-        "question": "¿Cuál es el nivel de organización estructural que constituye todas las partes del cuerpo funcionando en conjunto?",
+        "question": "¿Qué tipo de tejido compone principalmente el sistema muscular?",
         "options": [
-            "Nivel celular",
-            "Nivel tisular",
-            "Nivel de organismo",
-            "Nivel de sistema o aparato"
+            "Tejido Muscular",
+            "Tejido Nervioso",
+            "Tejido Óseo",
+            "Tejido Epitelial"
         ],
-        "answer": "Nivel de organismo"
+        "answer": "Tejido Muscular"
     },
     {
-        "question": "¿Qué tipo de moléculas son insolubles en agua y se clasifican como lípidos?",
+        "question": "¿Cuál es el nivel de organización estructural donde se divide al cuerpo en la mitad superior e inferior?",
         "options": [
-            "Carbohidratos",
+            "Nivel Celular",
+            "Nivel de Sistema o Aparato",
+            "Nivel Tisular",
+            "Nivel de Organismo"
+        ],
+        "answer": "Nivel de Organismo"
+    },
+    {
+        "question": "¿Cuál de las siguientes moléculas orgánicas es insoluble en agua?",
+        "options": [
             "Proteínas",
+            "Carbohidratos",
             "Lípidos",
-            "Ácidos nucleicos"
+            "Ácidos Nucleicos"
         ],
         "answer": "Lípidos"
     },
     {
-        "question": "¿Cuál es el nivel de organización estructural que comprende la unidad básica de vida, las células?",
+        "question": "¿Cuál es la función principal de los centriolos en la célula?",
         "options": [
-            "Nivel tisular",
-            "Nivel celular",
-            "Nivel de sistema o aparato",
-            "Nivel de organismo"
+            "Proporcionar energía",
+            "Participar en la división celular",
+            "Procesar y distribuir proteínas",
+            "Digerir las biomoléculas"
         ],
-        "answer": "Nivel celular"
+        "answer": "Participar en la división celular"
     },
     {
-        "question": "¿Cuál de los siguientes orgánulos celulares está relacionado con la síntesis de proteínas?",
+        "question": "¿Qué tipo de tejido recubre la superficie exterior del cuerpo y las cavidades internas?",
         "options": [
-            "Mitocondria",
-            "Ribosoma",
-            "Lisosoma",
-            "Aparato de Golgi"
+            "Tejido Muscular",
+            "Tejido Nervioso",
+            "Tejido Epitelial",
+            "Tejido Óseo"
         ],
-        "answer": "Ribosoma"
+        "answer": "Tejido Epitelial"
     },
     {
-        "question": "¿Cuál de las siguientes moléculas forma parte de los seres vivos y es conocida como la 'molecula de la vida'?",
+        "question": "¿Cuál es el nivel de organización estructural donde se estudian las funciones de las células?",
         "options": [
+            "Nivel Celular",
+            "Nivel de Sistema o Aparato",
+            "Nivel Tisular",
+            "Nivel de Organismo"
+        ],
+        "answer": "Nivel Celular"
+    },
+    {
+        "question": "¿Cuál de los siguientes órganos forma parte del sistema digestivo?",
+        "options": [
+            "Corazón",
+            "Hígado",
+            "Pulmones",
+            "Cerebro"
+        ],
+        "answer": "Hígado"
+    },
+    {
+        "question": "¿Cuál de las siguientes moléculas orgánicas es conocida como grasa y es insoluble en agua?",
+        "options": [
+            "Proteínas",
             "Carbohidratos",
             "Lípidos",
-            "Proteínas",
-            "Ácidos nucleicos"
+            "Ácidos Nucleicos"
         ],
-        "answer": "Ácidos nucleicos"
+        "answer": "Lípidos"
     },
     {
-        "question": "¿Cuál es el nivel de organización estructural que se refiere a la organización de átomos y moléculas?",
+        "question": "¿Cuál es la función principal de las mitocondrias en la célula?",
         "options": [
-            "Nivel celular",
-            "Nivel químico",
-            "Nivel de organismo",
-            "Nivel tisular"
+            "Fabricar proteínas",
+            "Proporcionar energía",
+            "Digerir las biomoléculas",
+            "Regular la temperatura"
         ],
-        "answer": "Nivel químico"
+        "answer": "Proporcionar energía"
     },
     {
-        "question": "¿Qué tipo de moléculas sirven de reserva de energía en el cuerpo humano?",
+        "question": "¿Qué tipo de tejido es responsable de sostener y proteger los órganos del cuerpo?",
+        "options": [
+            "Tejido Muscular",
+            "Tejido Nervioso",
+            "Tejido Conjuntivo",
+            "Tejido Epitelial"
+        ],
+        "answer": "Tejido Conjuntivo"
+    },
+    {
+        "question": "¿Cuál de los siguientes tejidos es el responsable de la transmisión de los impulsos nerviosos?",
+        "options": [
+            "Tejido Muscular",
+            "Tejido Nervioso",
+            "Tejido Óseo",
+            "Tejido Conjuntivo"
+        ],
+        "answer": "Tejido Nervioso"
+    },
+    {
+        "question": "¿Cuál es el nivel de organización estructural donde se estudian las funciones de los diferentes órganos?",
+        "options": [
+            "Nivel Celular",
+            "Nivel de Sistema o Aparato",
+            "Nivel Tisular",
+            "Nivel de Organismo"
+        ],
+        "answer": "Nivel de Sistema o Aparato"
+    },
+    {
+        "question": "¿Qué función principal tienen los ribosomas en la célula?",
+        "options": [
+            "Fabricar proteínas",
+            "Proporcionar energía",
+            "Digerir las biomoléculas",
+            "Regular la temperatura"
+        ],
+        "answer": "Fabricar proteínas"
+    },
+    {
+        "question": "¿Cuál de las siguientes moléculas orgánicas es una polímero de aminoácidos y es fundamental para la estructura celular?",
         "options": [
             "Proteínas",
             "Carbohidratos",
             "Lípidos",
-            "Ácidos nucleicos"
-        ],
-        "answer": "Carbohidratos"
-    },
-    {
-        "question": "¿Cuál de las siguientes ramas de la fisiología estudia las funciones de las células?",
-        "options": [
-            "Fisiología tisular",
-            "Fisiología celular",
-            "Fisiología orgánica",
-            "Fisiopatología"
-        ],
-        "answer": "Fisiología celular"
-    },
-    {
-        "question": "¿Cuál es el tipo de tejido que forma parte de la piel?",
-        "options": [
-            "Epitelial",
-            "Conjuntivo o conectivo",
-            "Muscular",
-            "Nervioso"
-        ],
-        "answer": "Epitelial"
-    },
-    {
-        "question": "¿Qué tipo de moléculas forman parte de los seres vivos y son polímeros de aminoácidos?",
-        "options": [
-            "Carbohidratos",
-            "Lípidos",
-            "Proteínas",
-            "Ácidos nucleicos"
+            "Ácidos Nucleicos"
         ],
         "answer": "Proteínas"
     },
     {
-        "question": "¿Cuál es la principal función del aparato de Golgi en la célula?",
+        "question": "¿Qué tipo de tejido compone principalmente el sistema nervioso?",
         "options": [
-            "Procesar y distribuir proteínas",
-            "Proporcionar energía a la célula",
+            "Tejido Muscular",
+            "Tejido Nervioso",
+            "Tejido Óseo",
+            "Tejido Epitelial"
+        ],
+        "answer": "Tejido Nervioso"
+    },
+    {
+        "question": "¿Cuál es el nivel de organización estructural donde se divide al cuerpo en lado izquierdo y derecho?",
+        "options": [
+            "Nivel Celular",
+            "Nivel de Sistema o Aparato",
+            "Nivel Tisular",
+            "Nivel de Organismo"
+        ],
+        "answer": "Nivel de Organismo"
+    },
+    {
+        "question": "¿Cuál de las siguientes moléculas orgánicas sirve como reserva de energía en el organismo?",
+        "options": [
+            "Proteínas",
+            "Carbohidratos",
+            "Lípidos",
+            "Ácidos Nucleicos"
+        ],
+        "answer": "Lípidos"
+    },
+    {
+        "question": "¿Cuál es la función principal de las vacuolas en la célula?",
+        "options": [
+            "Permitir el intercambio con el medio externo",
             "Digerir las biomoléculas",
-            "Transportar sustancias a través de su membrana"
+            "Fabricar proteínas",
+            "Proporcionar energía"
         ],
-        "answer": "Procesar y distribuir proteínas"
+        "answer": "Permitir el intercambio con el medio externo"
     },
     {
-        "question": "¿Cuál es el nivel de organización estructural que se refiere a la organización de varios órganos para desempeñar funciones específicas?",
+        "question": "¿Qué tipo de tejido está especializado en la contracción y generación de fuerza?",
         "options": [
-            "Nivel de organismo",
-            "Nivel de sistema o aparato",
-            "Nivel celular",
-            "Nivel tisular"
+            "Tejido Muscular",
+            "Tejido Nervioso",
+            "Tejido Óseo",
+            "Tejido Epitelial"
         ],
-        "answer": "Nivel de sistema o aparato"
+        "answer": "Tejido Muscular"
     },
     {
-        "question": "¿Cuál es el tipo de moléculas que forman parte de los seres vivos y son insolubles en agua?",
+        "question": "¿Cuál es el nivel de organización estructural donde se estudian las funciones de los diferentes tejidos?",
         "options": [
-            "Carbohidratos",
-            "Lípidos",
-            "Proteínas",
-            "Ácidos nucleicos"
+            "Nivel Celular",
+            "Nivel de Sistema o Aparato",
+            "Nivel Tisular",
+            "Nivel de Organismo"
         ],
-        "answer": "Lípidos"
+        "answer": "Nivel Tisular"
     },
     {
-        "question": "¿Qué nivel de organización estructural se refiere a la organización de varios órganos para desempeñar funciones específicas?",
+        "question": "¿Cuál de los siguientes órganos forma parte del sistema circulatorio?",
         "options": [
-            "Nivel de organismo",
-            "Nivel de sistema o aparato",
-            "Nivel celular",
-            "Nivel tisular"
+            "Estómago",
+            "Pulmones",
+            "Corazón",
+            "Cerebro"
         ],
-        "answer": "Nivel de sistema o aparato"
+        "answer": "Corazón"
     },
     {
-        "question": "¿Cuál es el tipo de tejido que forma parte de los huesos?",
-        "options": [
-            "Epitelial",
-            "Conjuntivo o conectivo",
-            "Muscular",
-            "Nervioso"
-        ],
-        "answer": "Conjuntivo o conectivo"
-    },
-    {
-        "question": "¿Cuál de los siguientes orgánulos celulares es responsable de proporcionar energía a la célula?",
-        "options": [
-            "Mitocondria",
-            "Ribosoma",
-            "Lisosoma",
-            "Retículo endoplasmático"
-        ],
-        "answer": "Mitocondria"
-    },
-    {
-        "question": "¿Cuál es el nivel de organización estructural que se refiere a la organización de varios órganos para desempeñar funciones específicas?",
-        "options": [
-            "Nivel de organismo",
-            "Nivel de sistema o aparato",
-            "Nivel celular",
-            "Nivel tisular"
-        ],
-        "answer": "Nivel de sistema o aparato"
-    },
-    {
-        "question": "¿Qué tipo de moléculas forman parte de los seres vivos y son conocidos como la 'molecula de la vida'?",
-        "options": [
-            "Carbohidratos",
-            "Lípidos",
-            "Proteínas",
-            "Ácidos nucleicos"
-        ],
-        "answer": "Ácidos nucleicos"
-    },
-    {
-        "question": "¿Cuál es el tipo de moléculas que sirven de combustible en los procesos metabólicos?",
+        "question": "¿Cuál de las siguientes moléculas orgánicas sirve como combustible en los procesos metabólicos?",
         "options": [
             "Proteínas",
             "Carbohidratos",
             "Lípidos",
-            "Ácidos nucleicos"
+            "Ácidos Nucleicos"
         ],
         "answer": "Carbohidratos"
     },
     {
-        "question": "¿Cuál de las siguientes ramas de la anatomía se enfoca en estudiar las estructuras que no se pueden ver a simple vista?",
+        "question": "¿Cuál es la función principal de las mitocondrias en la célula?",
         "options": [
-            "Anatomía descriptiva",
-            "Anatomía topográfica",
-            "Anatomía microscópica",
-            "Anatomía comparada"
+            "Fabricar proteínas",
+            "Proporcionar energía",
+            "Digerir las biomoléculas",
+            "Regular la temperatura"
         ],
-        "answer": "Anatomía microscópica"
+        "answer": "Proporcionar energía"
     },
     {
-        "question": "¿Cuál es el tipo de tejido que forma parte de los músculos?",
+        "question": "¿Qué tipo de tejido conecta y sostiene otros tejidos y órganos?",
         "options": [
-            "Epitelial",
-            "Conjuntivo o conectivo",
-            "Muscular",
-            "Nervioso"
+            "Tejido Muscular",
+            "Tejido Nervioso",
+            "Tejido Conjuntivo",
+            "Tejido Epitelial"
         ],
-        "answer": "Muscular"
+        "answer": "Tejido Conjuntivo"
     },
     {
-        "question": "¿Qué orgánulo celular es conocido como la 'central energética' de la célula?",
+        "question": "¿Cuál de los siguientes tejidos está especializado en la recepción y transmisión de impulsos eléctricos?",
         "options": [
-            "Mitocondria",
-            "Lisosoma",
-            "Ribosoma",
-            "Retículo endoplasmático"
+            "Tejido Muscular",
+            "Tejido Nervioso",
+            "Tejido Óseo",
+            "Tejido Conjuntivo"
         ],
-        "answer": "Mitocondria"
+        "answer": "Tejido Nervioso"
     },
     {
-        "question": "¿Cuál es el nivel de organización estructural que constituye todas las partes del cuerpo funcionando en conjunto?",
+        "question": "¿Cuál es el nivel de organización estructural donde se estudian las funciones de los diferentes sistemas del cuerpo?",
         "options": [
-            "Nivel celular",
-            "Nivel tisular",
-            "Nivel de organismo",
-            "Nivel de sistema o aparato"
+            "Nivel Celular",
+            "Nivel de Sistema o Aparato",
+            "Nivel Tisular",
+            "Nivel de Organismo"
         ],
-        "answer": "Nivel de organismo"
+        "answer": "Nivel de Sistema o Aparato"
     },
     {
-        "question": "¿Qué tipo de moléculas son insolubles en agua y se clasifican como lípidos?",
+        "question": "¿Qué función principal tienen los lisosomas en la célula?",
         "options": [
-            "Carbohidratos",
-            "Proteínas",
-            "Lípidos",
-            "Ácidos nucleicos"
+            "Digerir las biomoléculas",
+            "Fabricar proteínas",
+            "Proporcionar energía",
+            "Regular la temperatura"
         ],
-        "answer": "Lípidos"
-    },
-    {
-        "question": "¿Cuál es el nivel de organización estructural que comprende la unidad básica de vida, las células?",
-        "options": [
-            "Nivel tisular",
-            "Nivel celular",
-            "Nivel de sistema o aparato",
-            "Nivel de organismo"
-        ],
-        "answer": "Nivel celular"
-    },
-    {
-        "question": "¿Cuál de los siguientes orgánulos celulares está relacionado con la síntesis de proteínas?",
-        "options": [
-            "Mitocondria",
-            "Ribosoma",
-            "Lisosoma",
-            "Aparato de Golgi"
-        ],
-        "answer": "Ribosoma"
-    },
-    {
-        "question": "¿Cuál de las siguientes moléculas forma parte de los seres vivos y es conocida como la 'molecula de la vida'?",
-        "options": [
-            "Carbohidratos",
-            "Lípidos",
-            "Proteínas",
-            "Ácidos nucleicos"
-        ],
-        "answer": "Ácidos nucleicos"
-    },
-    {
-        "question": "¿Cuál es el nivel de organización estructural que se refiere a la organización de átomos y moléculas?",
-        "options": [
-            "Nivel celular",
-            "Nivel químico",
-            "Nivel de organismo",
-            "Nivel tisular"
-        ],
-        "answer": "Nivel químico"
-    },
-    {
-        "question": "¿Qué tipo de moléculas sirven de reserva de energía en el cuerpo humano?",
-        "options": [
-            "Proteínas",
-            "Carbohidratos",
-            "Lípidos",
-            "Ácidos nucleicos"
-        ],
-        "answer": "Carbohidratos"
+        "answer": "Digerir las biomoléculas"
     }
 ]
