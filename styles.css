@@ -98,3 +98,43 @@ h2 {
 #reset-button:hover {
     background-color: #2980b9;
 }
+
+/* styles.css */
+
+/* Agregar estilos para el desplegable */
+#category-selection {
+    margin-bottom: 20px;
+}
+
+#category-select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+#category-select:focus {
+    outline: none;
+    border-color: #2980b9;
+}
+
+/* Estilo para el botón */
+#start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#start-button:hover {
+    background-color: #2980b9;
+}
+
