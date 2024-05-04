@@ -77,3 +77,19 @@ h2 {
     left: 50%; /* Centrado horizontalmente */
     transform: translateX(-50%); /* Centrado horizontalmente */
 }
+
+.reset-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background-color: #2980b9;
+}
