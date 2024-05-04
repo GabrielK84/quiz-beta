@@ -20,5 +20,18 @@
         </div>
     </div>
     <script src="quiz.js"></script>
+    <script>
+        // Obtener el botón de comenzar
+        const startButton = document.getElementById('start-button');
+
+        // Agregar evento de clic al botón de comenzar
+        startButton.addEventListener('click', () => {
+            // Obtener la categoría seleccionada
+            const selectedCategory = document.getElementById('category-select').value;
+
+            // Redirigir a la página del quiz con la categoría seleccionada como parámetro de consulta
+            window.location.href = `quiz.html?category=${selectedCategory}`;
+        });
+    </script>
 </body>
 </html>
