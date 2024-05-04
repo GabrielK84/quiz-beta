@@ -1,24 +1,22 @@
-{
-  "questions": [
+[
     {
-      "question": "¿Cuál es el órgano más grande del cuerpo humano?",
-      "options": [
-        "Corazón",
-        "Pulmón",
-        "Hígado",
-        "Piel"
-      ],
-      "answer": "Piel"
+        "question": "¿Cuál es el hueso más largo del cuerpo humano?",
+        "options": [
+            "Fémur",
+            "Radio",
+            "Húmero",
+            "Tibia"
+        ],
+        "answer": "Fémur"
     },
     {
-      "question": "¿Cuántos huesos tiene el cuerpo humano en promedio?",
-      "options": [
-        "206",
-        "300",
-        "100",
-        "500"
-      ],
-      "answer": "206"
+        "question": "¿Cuántos huesos tiene un adulto humano en total?",
+        "options": [
+            "206",
+            "214",
+            "198",
+            "190"
+        ],
+        "answer": "206"
     }
-  ]
-}
+]
