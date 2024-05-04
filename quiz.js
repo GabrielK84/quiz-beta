@@ -1,15 +1,18 @@
-// Función para cargar las preguntas desde el archivo JSON
-function loadQuestions() {
-    return fetch('questions.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Error al cargar las preguntas');
-            }
-            return response.json();
-        });
+// Obtener el parámetro de la URL que indica la categoría seleccionada
+const urlParams = new URLSearchParams(window.location.search);
+const selectedCategory = urlParams.get('category');
+
+// Obtener las preguntas correspondientes a la categoría seleccionada
+let questions;
+if (selectedCategory === 'anatomy') {
+    questions = anatomyQuestions;
+} else if (selectedCategory === 'first-aid') {
+    questions = firstAidQuestions;
+} else {
+    questions = allQuestions;
 }
 
-// Mezclar el orden de las opciones para una pregunta dada
+// Función para mezclar el orden de las opciones
 function shuffleOptions(options) {
     for (let i = options.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -17,7 +20,7 @@ function shuffleOptions(options) {
     }
 }
 
-// Mezclar el orden de las preguntas
+// Función para mezclar el orden de las preguntas
 function shuffleQuestions(questions) {
     for (let i = questions.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -25,25 +28,17 @@ function shuffleQuestions(questions) {
     }
 }
 
-let questions = []; // Variable para almacenar las preguntas
+// Mezclar el orden de las preguntas
+shuffleQuestions(questions);
+
+// Mezclar el orden de las opciones para cada pregunta
+questions.forEach(question => {
+    shuffleOptions(question.options);
+});
+
 let currentQuestion = 0;
 let score = 0;
 
-// Función para inicializar la quiz una vez que las preguntas se hayan cargado
-function initializeQuiz() {
-    loadQuestions()
-        .then(data => {
-            questions = data; // Almacenar las preguntas cargadas
-            shuffleQuestions(questions); // Mezclar las preguntas
-            questions.forEach(question => shuffleOptions(question.options)); // Mezclar opciones para cada pregunta
-            displayQuestion(); // Mostrar la primera pregunta
-        })
-        .catch(error => {
-            console.error(error); // Manejar errores de carga de preguntas
-        });
-}
-
-// Función para mostrar la pregunta actual
 function displayQuestion() {
     const questionElement = document.getElementById('question');
     const optionsElement = document.getElementById('options');
@@ -58,12 +53,11 @@ function displayQuestion() {
     });
 }
 
-// Función para comprobar la respuesta seleccionada por el usuario
 function checkAnswer(selectedOption) {
     const currentQuestionData = questions[currentQuestion];
     const buttons = document.querySelectorAll('#options button');
     buttons.forEach(button => {
-        button.disabled = true; // Deshabilitar botones después de seleccionar una opción
+        button.disabled = true; // Disable buttons after an option is selected
         if (button.textContent === currentQuestionData.answer) {
             button.classList.add('correct');
         } else {
@@ -76,12 +70,11 @@ function checkAnswer(selectedOption) {
     document.getElementById('score-value').textContent = score;
     currentQuestion++;
     if (currentQuestion < questions.length) {
-        setTimeout(displayQuestion, 1000); // Retraso de 1 segundo antes de mostrar la siguiente pregunta
+        setTimeout(displayQuestion, 1000); // Delay for 1 second before displaying next question
     } else {
         document.getElementById('quiz-end-message').style.display = 'block';
         document.getElementById('quiz-end-message').textContent = "¡Fin del quiz! Tu puntuación es: " + score;
     }
 }
 
-// Inicializar la quiz al cargar la página
-initializeQuiz();
+displayQuestion();
