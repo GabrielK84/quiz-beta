@@ -90,6 +90,9 @@ function resetQuiz() {
     startQuiz();
 }
 
+// Evento click para el botón de reset
+document.getElementById('reset-button').addEventListener('click', resetQuiz);
+
 
 // Llamar a la función principal para comenzar el quiz
 startQuiz();
