@@ -132,3 +132,20 @@ h2 {
     left: 50%; /* Centrado horizontalmente */
     transform: translateX(-50%); /* Centrado horizontalmente */
 }
+
+#category-select {
+    height: 40px; /* Mismo alto que el botón */
+    background-color: #3498db; /* Celeste */
+    color: white; /* Texto en blanco */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-right: 10px; /* Espacio entre el desplegable y el botón */
+}
+
+#category-select option {
+    background-color: white; /* Fondo de las opciones */
+    color: #3498db; /* Texto de las opciones */
+}
+
