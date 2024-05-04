@@ -1,6 +1,6 @@
 let currentQuestion = 0;
 let score = 0;
-let questions = []; // Variable para almacenar las preguntas
+let questions = []; // Variable para almacenar las preguntas del quiz
 
 // Función para mezclar el orden de las opciones
 function shuffleOptions(options) {
@@ -42,9 +42,11 @@ async function startQuiz() {
         shuffleOptions(question.options);
     });
 
+    // Mostrar la primera pregunta
     displayQuestion();
 }
 
+// Función para mostrar una pregunta
 function displayQuestion() {
     const questionElement = document.getElementById('question');
     const optionsElement = document.getElementById('options');
@@ -59,11 +61,12 @@ function displayQuestion() {
     });
 }
 
+// Función para verificar la respuesta seleccionada por el usuario
 function checkAnswer(selectedOption) {
     const currentQuestionData = questions[currentQuestion];
     const buttons = document.querySelectorAll('#options button');
     buttons.forEach(button => {
-        button.disabled = true; // Disable buttons after an option is selected
+        button.disabled = true; // Deshabilitar botones después de seleccionar una opción
         if (button.textContent === currentQuestionData.answer) {
             button.classList.add('correct');
         } else {
@@ -76,24 +79,28 @@ function checkAnswer(selectedOption) {
     document.getElementById('score-value').textContent = score;
     currentQuestion++;
     if (currentQuestion < questions.length) {
-        setTimeout(displayQuestion, 1000); // Delay for 1 second before displaying next question
+        setTimeout(displayQuestion, 1000); // Retraso de 1 segundo antes de mostrar la siguiente pregunta
     } else {
-        document.getElementById('quiz-end-message').style.display = 'block';
-        document.getElementById('quiz-end-message').textContent = "¡Fin del quiz! Tu puntuación es: " + score;
-        document.getElementById('reset-button').style.display = 'block'; // Mostrar el botón de reset
+        endQuiz();
     }
 }
 
+// Función para finalizar el quiz
+function endQuiz() {
+    document.getElementById('quiz-end-message').style.display = 'block';
+    document.getElementById('quiz-end-message').textContent = "¡Fin del quiz! Tu puntuación es: " + score;
+    document.getElementById('reset-button').style.display = 'block'; // Mostrar el botón de reset al final del quiz
+    document.getElementById('reset-button').addEventListener('click', resetQuiz); // Agregar evento de clic para reiniciar el quiz
+}
+
+// Función para reiniciar el quiz
 function resetQuiz() {
     currentQuestion = 0;
     score = 0;
     shuffleQuestions(questions); // Mezclar el orden de las preguntas nuevamente
-    displayQuestion(); // Mostrar la primera pregunta
-    document.getElementById('quiz-end-message').style.display = 'none'; // Ocultar el mensaje de fin de quiz
     document.getElementById('reset-button').style.display = 'none'; // Ocultar el botón de reset
+    displayQuestion(); // Mostrar la primera pregunta
 }
-
-document.getElementById('reset-button').addEventListener('click', resetQuiz);
 
 // Llamar a la función principal para comenzar el quiz
 startQuiz();
