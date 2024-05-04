@@ -101,16 +101,14 @@ function checkAnswer(selectedOption) {
 }
 
 // Obtener la categoría seleccionada
-const categorySelector = document.getElementById('category-selector');
-categorySelector.addEventListener('change', function() {
-    const category = this.value;
-    document.getElementById('start-button').addEventListener('click', function() {
-        if (category === "anatomia") {
-            loadAnatomiaQuestions();
-        } else if (category === "primeros_auxilios") {
-            loadPrimerosAuxiliosQuestions();
-        } else if (category === "todos") {
-            loadAllQuestions();
-        }
-    });
+document.getElementById('start-button').addEventListener('click', function() {
+    const categorySelector = document.getElementById('category-selector');
+    const category = categorySelector.value;
+    if (category === "anatomia") {
+        window.location.href = "quiz.html?category=anatomia";
+    } else if (category === "primeros_auxilios") {
+        window.location.href = "quiz.html?category=primeros_auxilios";
+    } else if (category === "todos") {
+        window.location.href = "quiz.html?category=todos";
+    }
 });
