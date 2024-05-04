@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
+    <title>Quiz - Selección de Categoría</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>¡Bienvenido al Quiz!</h1>
-        <div id="category-selection">
-            <h2>Elige la Categoría</h2>
-            <select id="category-select">
-                <option value="Anatomía">Anatomía</option>
-                <option value="Primeros Auxilios">Primeros Auxilios</option>
-                <option value="Todos">Todos</option>
-            </select>
-            <button id="start-button">Comenzar</button>
-        </div>
+        <h1>Quiz - Selección de Categoría</h1>
+        <label for="category">Elije la Categoría:</label>
+        <select id="category">
+            <option value="anatomia">Anatomía</option>
+            <option value="primeros_auxilios">Primeros Auxilios</option>
+            <option value="todos">Todos</option>
+        </select>
+        <button id="start-button">Comenzar</button>
     </div>
     <script src="quiz.js"></script>
 </body>
