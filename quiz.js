@@ -75,20 +75,24 @@ function checkAnswer(selectedOption) {
         document.getElementById('quiz-end-message').textContent = "¡Fin del quiz! Tu puntuación es: " + score;
     }
 }
-document.addEventListener('DOMContentLoaded', function() {
-    const startButton = document.getElementById('start-button');
-    
-    startButton.addEventListener('click', function() {
-        const selectedCategory = document.getElementById('category-select').value;
-        // Redireccionar a la página de preguntas según la categoría seleccionada
-        if (selectedCategory === 'Anatomía') {
-            window.location.href = 'quiz.html?category=anatomia';
-        } else if (selectedCategory === 'Primeros Auxilios') {
-            window.location.href = 'quiz.html?category=primeros_auxilios';
-        } else {
-            window.location.href = 'quiz.html'; // Cualquier otra opción lleva a todas las preguntas
-        }
-    });
+
+// Obtener referencia al botón de "Comenzar"
+const startButton = document.getElementById('start-button');
+
+// Agregar un evento de clic al botón
+startButton.addEventListener('click', () => {
+    // Obtener el valor seleccionado del selector de categoría
+    const selectedCategory = document.getElementById('category-select').value;
+
+    // Redirigir a la página de la quiz correspondiente según la categoría seleccionada
+    if (selectedCategory === 'Anatomía') {
+        window.location.href = 'anatomia_quiz.html';
+    } else if (selectedCategory === 'Primeros Auxilios') {
+        window.location.href = 'primeros_auxilios_quiz.html';
+    } else if (selectedCategory === 'Todos') {
+        window.location.href = 'quiz.html';
+    }
 });
+
 
 
