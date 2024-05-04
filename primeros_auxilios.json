@@ -1,24 +1,22 @@
-{
-  "questions": [
+[
     {
-      "question": "¿Cuál es la maniobra de primeros auxilios para desobstruir las vías respiratorias?",
-      "options": [
-        "Heimlich",
-        "RCP",
-        "Posición lateral de seguridad",
-        "Respiración boca a boca"
-      ],
-      "answer": "Heimlich"
+        "question": "¿Cuál es la maniobra de primeros auxilios para desobstruir las vías respiratorias?",
+        "options": [
+            "Maniobra de Heimlich",
+            "Compresión torácica",
+            "Respiración boca a boca",
+            "Compresión abdominal"
+        ],
+        "answer": "Maniobra de Heimlich"
     },
     {
-      "question": "¿Cuál es el protocolo a seguir en caso de quemaduras leves?",
-      "options": [
-        "Aplicar agua fría",
-        "Aplicar hielo directamente",
-        "Colocar mantequilla",
-        "Envolver con una toalla caliente"
-      ],
-      "answer": "Aplicar agua fría"
+        "question": "¿Cuál es la forma correcta de tratar una quemadura de primer grado?",
+        "options": [
+            "Aplicar agua fría",
+            "Frotar con hielo",
+            "Cubrir con algodón",
+            "Aplicar pomada"
+        ],
+        "answer": "Aplicar agua fría"
     }
-  ]
-}
+]
