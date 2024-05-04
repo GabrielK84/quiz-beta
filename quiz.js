@@ -1,5 +1,6 @@
 let currentQuestion = 0;
 let score = 0;
+let questions = []; // Variable para almacenar las preguntas
 
 // Función para mezclar el orden de las opciones
 function shuffleOptions(options) {
@@ -24,7 +25,6 @@ async function startQuiz() {
     const selectedCategory = urlParams.get('category');
 
     // Obtener las preguntas de la categoría seleccionada
-    let questions = [];
     if (selectedCategory === 'Anatomia' || selectedCategory === 'Todos') {
         const anatomiaQuestions = await (await fetch('anatomia.json')).json();
         questions = questions.concat(anatomiaQuestions);
@@ -42,46 +42,58 @@ async function startQuiz() {
         shuffleOptions(question.options);
     });
 
-    function displayQuestion() {
-        const questionElement = document.getElementById('question');
-        const optionsElement = document.getElementById('options');
-        const currentQuestionData = questions[currentQuestion];
-        questionElement.textContent = currentQuestionData.question;
-        optionsElement.innerHTML = "";
-        currentQuestionData.options.forEach(option => {
-            const button = document.createElement('button');
-            button.textContent = option;
-            button.onclick = () => checkAnswer(option);
-            optionsElement.appendChild(button);
-        });
-    }
-
-    function checkAnswer(selectedOption) {
-        const currentQuestionData = questions[currentQuestion];
-        const buttons = document.querySelectorAll('#options button');
-        buttons.forEach(button => {
-            button.disabled = true; // Disable buttons after an option is selected
-            if (button.textContent === currentQuestionData.answer) {
-                button.classList.add('correct');
-            } else {
-                button.classList.add('incorrect');
-            }
-        });
-        if (selectedOption === currentQuestionData.answer) {
-            score++;
-        }
-        document.getElementById('score-value').textContent = score;
-        currentQuestion++;
-        if (currentQuestion < questions.length) {
-            setTimeout(displayQuestion, 1000); // Delay for 1 second before displaying next question
-        } else {
-            document.getElementById('quiz-end-message').style.display = 'block';
-            document.getElementById('quiz-end-message').textContent = "¡Fin del quiz! Tu puntuación es: " + score;
-        }
-    }
-
     displayQuestion();
 }
+
+function displayQuestion() {
+    const questionElement = document.getElementById('question');
+    const optionsElement = document.getElementById('options');
+    const currentQuestionData = questions[currentQuestion];
+    questionElement.textContent = currentQuestionData.question;
+    optionsElement.innerHTML = "";
+    currentQuestionData.options.forEach(option => {
+        const button = document.createElement('button');
+        button.textContent = option;
+        button.onclick = () => checkAnswer(option);
+        optionsElement.appendChild(button);
+    });
+}
+
+function checkAnswer(selectedOption) {
+    const currentQuestionData = questions[currentQuestion];
+    const buttons = document.querySelectorAll('#options button');
+    buttons.forEach(button => {
+        button.disabled = true; // Disable buttons after an option is selected
+        if (button.textContent === currentQuestionData.answer) {
+            button.classList.add('correct');
+        } else {
+            button.classList.add('incorrect');
+        }
+    });
+    if (selectedOption === currentQuestionData.answer) {
+        score++;
+    }
+    document.getElementById('score-value').textContent = score;
+    currentQuestion++;
+    if (currentQuestion < questions.length) {
+        setTimeout(displayQuestion, 1000); // Delay for 1 second before displaying next question
+    } else {
+        document.getElementById('quiz-end-message').style.display = 'block';
+        document.getElementById('quiz-end-message').textContent = "¡Fin del quiz! Tu puntuación es: " + score;
+        document.getElementById('reset-button').style.display = 'block'; // Mostrar el botón de reset
+    }
+}
+
+function resetQuiz() {
+    currentQuestion = 0;
+    score = 0;
+    shuffleQuestions(questions); // Mezclar el orden de las preguntas nuevamente
+    displayQuestion(); // Mostrar la primera pregunta
+    document.getElementById('quiz-end-message').style.display = 'none'; // Ocultar el mensaje de fin de quiz
+    document.getElementById('reset-button').style.display = 'none'; // Ocultar el botón de reset
+}
+
+document.getElementById('reset-button').addEventListener('click', resetQuiz);
 
 // Llamar a la función principal para comenzar el quiz
 startQuiz();
