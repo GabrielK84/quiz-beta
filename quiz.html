@@ -9,13 +9,12 @@
 <body>
     <div class="container">
         <h1>Quiz</h1>
-        <h2 id="question"></h2>
-        <div id="options"></div>
-        <div id="score-container">
-            <span id="score">Puntuación: </span><span id="score-value">0</span>
-        </div>
-        <div id="quiz-end-message"></div>
-        <button id="reset-button" onclick="window.location.href='index.html'">Reset</button>
+        <select id="category-selector">
+            <option value="anatomia">Anatomía</option>
+            <option value="primeros_auxilios">Primeros Auxilios</option>
+            <option value="todos">Todos</option>
+        </select>
+        <button id="start-button">Comenzar</button>
     </div>
     <script src="quiz.js"></script>
 </body>
