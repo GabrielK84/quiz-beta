@@ -1,0 +1,12 @@
+[
+  {
+    "question": "¿Cuál es el protocolo PAS?",
+    "options": ["Proteger, Alertar, Socorrer", "Presión, Apoyo, Socorro", "Prevención, Asistencia, Salvamento", "Proveer, Asistir, Socorrer"],
+    "answer": "Proteger, Alertar, Socorrer"
+  },
+  {
+    "question": "¿Cuál es la maniobra de Heimlich?",
+    "options": ["Maniobra para estabilizar una fractura", "Maniobra para despejar las vías respiratorias obstruidas", "Maniobra para controlar una hemorragia", "Maniobra para evaluar la consciencia de la víctima"],
+    "answer": "Maniobra para despejar las vías respiratorias obstruidas"
+  }
+]
