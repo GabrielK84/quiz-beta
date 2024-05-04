@@ -1,32 +1,6 @@
-// Variables globales
 let currentQuestion = 0;
 let score = 0;
-let questions = [];
-
-// Función para cargar preguntas desde un archivo JSON
-async function loadQuestions(category) {
-    try {
-        const response = await fetch(`${category}.json`);
-        if (!response.ok) {
-            throw new Error('Error al cargar las preguntas');
-        }
-        const data = await response.json();
-        questions = data.questions;
-        shuffleQuestions(questions); // Mezclar las preguntas
-        displayQuestion(); // Mostrar la primera pregunta
-    } catch (error) {
-        console.error(error);
-        alert('Error al cargar las preguntas');
-    }
-}
-
-// Función para mezclar el orden de las preguntas
-function shuffleQuestions(questions) {
-    for (let i = questions.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [questions[i], questions[j]] = [questions[j], questions[i]];
-    }
-}
+let currentCategory = "";
 
 // Función para mezclar el orden de las opciones
 function shuffleOptions(options) {
@@ -36,13 +10,52 @@ function shuffleOptions(options) {
     }
 }
 
-// Función para mostrar una pregunta en la interfaz
+// Función para cargar las preguntas de la categoría seleccionada
+function loadQuestions(category) {
+    fetch(`${category}.json`)
+        .then(response => response.json())
+        .then(data => {
+            questions = data;
+            shuffleQuestions(questions);
+            displayQuestion();
+        })
+        .catch(error => console.error('Error al cargar las preguntas', error));
+}
+
+// Función para cargar las preguntas
+function loadAllQuestions() {
+    fetch('anatomia.json')
+        .then(response => response.json())
+        .then(data => {
+            questions = data;
+            fetch('primeros_auxilios.json')
+                .then(response => response.json())
+                .then(data => {
+                    questions = questions.concat(data);
+                    shuffleQuestions(questions);
+                    displayQuestion();
+                })
+                .catch(error => console.error('Error al cargar las preguntas de Primeros Auxilios', error));
+        })
+        .catch(error => console.error('Error al cargar las preguntas de Anatomía', error));
+}
+
+// Mezclar el orden de las preguntas
+function shuffleQuestions(questions) {
+    for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [questions[i], questions[j]] = [questions[j], questions[i]];
+    }
+}
+
+// Mostrar la pregunta actual
 function displayQuestion() {
     const questionElement = document.getElementById('question');
     const optionsElement = document.getElementById('options');
     const currentQuestionData = questions[currentQuestion];
     questionElement.textContent = currentQuestionData.question;
     optionsElement.innerHTML = "";
+    shuffleOptions(currentQuestionData.options);
     currentQuestionData.options.forEach(option => {
         const button = document.createElement('button');
         button.textContent = option;
@@ -51,12 +64,12 @@ function displayQuestion() {
     });
 }
 
-// Función para verificar la respuesta seleccionada por el usuario
+// Verificar la respuesta seleccionada
 function checkAnswer(selectedOption) {
     const currentQuestionData = questions[currentQuestion];
     const buttons = document.querySelectorAll('#options button');
     buttons.forEach(button => {
-        button.disabled = true; // Desactivar botones después de seleccionar una opción
+        button.disabled = true; // Deshabilitar los botones después de seleccionar una opción
         if (button.textContent === currentQuestionData.answer) {
             button.classList.add('correct');
         } else {
@@ -76,23 +89,16 @@ function checkAnswer(selectedOption) {
     }
 }
 
-// Obtener referencia al botón de "Comenzar"
-const startButton = document.getElementById('start-button');
-
-// Agregar un evento de clic al botón
-startButton.addEventListener('click', () => {
-    // Obtener el valor seleccionado del selector de categoría
-    const selectedCategory = document.getElementById('category-select').value;
-
-    // Redirigir a la página de la quiz correspondiente según la categoría seleccionada
-    if (selectedCategory === 'Anatomía') {
-        window.location.href = 'anatomia_quiz.html';
-    } else if (selectedCategory === 'Primeros Auxilios') {
-        window.location.href = 'primeros_auxilios_quiz.html';
-    } else if (selectedCategory === 'Todos') {
-        window.location.href = 'quiz.html';
-    }
+// Obtener la categoría seleccionada
+document.getElementById('category-selector').addEventListener('change', function() {
+    currentCategory = this.value;
 });
 
-
-
+// Botón para comenzar la quiz
+document.getElementById('start-button').addEventListener('click', function() {
+    if (currentCategory === "todos") {
+        loadAllQuestions();
+    } else {
+        loadQuestions(currentCategory);
+    }
+});
