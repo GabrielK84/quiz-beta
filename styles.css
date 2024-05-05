@@ -106,7 +106,7 @@ h2 {
     width: 400px /*prueba*/
     position: absolute; /* Posición absoluta */
     top: 10px; /* Distancia desde arriba */
-    text-align: center;/*right: 10px;  Distancia desde la izquierda */
+    right: 10px;  /*Distancia desde la izquierda */
     font-weight: bold; /* Texto en negrita */
     color: #fff; /* Texto en blanco */
 }
