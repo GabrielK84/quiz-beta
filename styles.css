@@ -23,16 +23,6 @@ h2 {
     margin-bottom: 10px; /* Espacio debajo del subtítulo */
 }
 
-/*.category-selection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#category-select {
-    margin-right: 10px; /*Espacio entre el desplegable y el botón
-}*/
-
 #start-button {
     background-color: #007bff; /* Color de fondo del botón */
     color: #fff; /* Color del texto del botón */
@@ -146,4 +136,10 @@ h2 {
 .category-selection select:focus {
     outline: none; /* Elimina el contorno de enfoque */
     border-color: #2980b9; /* Cambia el color del borde al enfocar */
+}
+
+#question-counter {
+    float: right;
+    text-align: right;
+    margin-right: 10px;
 }
