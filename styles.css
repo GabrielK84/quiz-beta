@@ -143,10 +143,11 @@ h2 {
     appearance: none; /* Elimina el estilo predeterminado del desplegable */
 }
 
+/* Estilos para el contenedor del contador de preguntas */
 #question-counter {
     position: absolute;
     top: 10px;
-    right: 10px; /* Modificado para posicionar en la esquina superior derecha */
+    right: 10px; /* Posicionado en la esquina superior derecha */
     font-weight: bold;
     color: #fff;
 }
