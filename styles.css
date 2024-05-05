@@ -103,6 +103,7 @@ h2 {
 }
 
 #score-container {
+    width: 400px /*prueba*/
     position: absolute; /* Posición absoluta */
     top: 10px; /* Distancia desde arriba */
     text-align: center;/*right: 10px;  Distancia desde la izquierda */
