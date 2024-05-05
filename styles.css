@@ -105,7 +105,7 @@ h2 {
 #score-container {
     position: absolute; /* Posición absoluta */
     top: 10px; /* Distancia desde arriba */
-    left: 10px; /* Distancia desde la izquierda */
+    center: 10px; /* Distancia desde la izquierda */
     font-weight: bold; /* Texto en negrita */
     color: #fff; /* Texto en blanco */
 }
