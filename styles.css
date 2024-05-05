@@ -120,6 +120,14 @@ h2 {
     color: #fff; /* Texto en blanco */
 }
 
+#question-counter {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Modificado para posicionar en la esquina superior derecha */
+    font-weight: bold;
+    color: #fff;
+}
+
 #quiz-end-message {
     font-weight: bold; /* Texto en negrita */
     color: #fff; /* Texto en blanco */
@@ -141,14 +149,6 @@ h2 {
     font-size: 16px; /* Tamaño de fuente */
     cursor: pointer; /* Cursor de flecha */
     appearance: none; /* Elimina el estilo predeterminado del desplegable */
-}
-
-#question-counter {
-    position: absolute;
-    top: 10px;
-    right: 10px; /* Modificado para posicionar en la esquina superior derecha */
-    font-weight: bold;
-    color: #fff;
 }
 
 .category-selection select:focus {
