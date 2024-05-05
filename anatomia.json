@@ -1,103 +1,13 @@
 [
     {
-        "question": "¿Cuál es el nivel de organización estructural que se refiere a la organización de varios órganos para desempeñar funciones específicas?",
+        "question": "¿Cuál es la función principal de la anatomía descriptiva?",
         "options": [
-            "Nivel Celular",
-            "Nivel de Sistema o Aparato",
-            "Nivel Tisular",
-            "Nivel de Organismo"
+            "Estudia las modificaciones que sufren las funciones de las estructuras enfermas",
+            "Estudia las funciones de las células",
+            "Estudia la forma, situación y composición de las estructuras",
+            "Estudia las funciones de los diferentes órganos"
         ],
-        "answer": "Nivel de Sistema o Aparato"
-    },
-    {
-        "question": "¿Cuál es la función principal de los eritrocitos en la sangre?",
-        "options": [
-            "Transportar oxígeno en el cuerpo",
-            "Combatir enfermedades",
-            "Regular la temperatura corporal",
-            "Coagular la sangre"
-        ],
-        "answer": "Transportar oxígeno en el cuerpo"
-    },
-    {
-        "question": "¿Qué rama de la anatomía estudia comparativamente las funciones orgánicas de los animales y del ser humano?",
-        "options": [
-            "Anatomía Comparada",
-            "Anatomía Descriptiva",
-            "Anatomía Topográfica",
-            "Anatomía Macroscópica"
-        ],
-        "answer": "Anatomía Comparada"
-    },
-    {
-        "question": "¿Qué nivel de organización estructural se refiere a las células que se organizan para formar los tejidos del organismo?",
-        "options": [
-            "Nivel Celular",
-            "Nivel de Sistema o Aparato",
-            "Nivel Tisular",
-            "Nivel de Organismo"
-        ],
-        "answer": "Nivel Tisular"
-    },
-    {
-        "question": "¿Cuál es la biomolécula inorgánica que forma parte de los seres vivos?",
-        "options": [
-            "Proteínas",
-            "Carbohidratos",
-            "Sales minerales",
-            "Ácidos nucleicos"
-        ],
-        "answer": "Sales minerales"
-    },
-    {
-        "question": "¿Cuál de los siguientes orgánulos es responsable de procesar y distribuir proteínas a todas las partes de la célula?",
-        "options": [
-            "Retículo Endoplásmico",
-            "Mitocondria",
-            "Centriolo",
-            "Aparato de Golgi"
-        ],
-        "answer": "Aparato de Golgi"
-    },
-    {
-        "question": "¿Qué nivel de organización estructural se refiere a la unidad básica de vida, que incluye citoplasma, núcleo y membrana?",
-        "options": [
-            "Nivel Celular",
-            "Nivel de Sistema o Aparato",
-            "Nivel Tisular",
-            "Nivel de Organismo"
-        ],
-        "answer": "Nivel Celular"
-    },
-    {
-        "question": "¿Cuál de las siguientes moléculas forma parte de los seres vivos y se clasifica como una biomolécula orgánica?",
-        "options": [
-            "Sales minerales",
-            "Carbohidratos",
-            "Lípidos",
-            "Ácidos nucleicos"
-        ],
-        "answer": "Carbohidratos"
-    },
-    {
-        "question": "¿Cuál de las siguientes ramas de la anatomía se enfoca en estudiar las funciones de las células?",
-        "options": [
-            "Anatomía Descriptiva",
-            "Anatomía Comparada",
-            "Anatomía Macroscópica",
-            "Anatomía Microscópica"
-        ],
-        "answer": "Anatomía Microscópica"
-    },
-    {
-        "question": "¿Cuál es la función principal de los eritrocitos en la sangre?",
-        "options": [
-            "Combatir enfermedades",
-            "Regular la temperatura corporal",
-            "Coagular la sangre",
-            "Transportar oxígeno en el cuerpo"
-        ],
-        "answer": "Transportar oxígeno en el cuerpo"
+        "answer": "Estudia la forma, situación y composición de las estructuras"
     },
     {
         "question": "¿Qué nivel de organización estructural se refiere a la organización de varios órganos para desempeñar funciones específicas?",
@@ -110,14 +20,14 @@
         "answer": "Nivel de Sistema o Aparato"
     },
     {
-        "question": "¿Cuál es la biomolécula inorgánica que forma parte de los seres vivos?",
+        "question": "¿Cuál es la función principal de los eritrocitos en la sangre?",
         "options": [
-            "Proteínas",
-            "Carbohidratos",
-            "Sales minerales",
-            "Ácidos nucleicos"
+            "Combatir enfermedades",
+            "Transportar oxígeno en el cuerpo",
+            "Regular la temperatura corporal",
+            "Coagular la sangre"
         ],
-        "answer": "Sales minerales"
+        "answer": "Transportar oxígeno en el cuerpo"
     },
     {
         "question": "¿Cuál de los siguientes orgánulos es responsable de fabricar proteínas en la célula?",
@@ -130,7 +40,177 @@
         "answer": "Ribosoma"
     },
     {
-        "question": "¿Qué nivel de organización estructural se refiere a las células que se organizan para formar los tejidos del organismo?",
+        "question": "¿Cuál de las siguientes moléculas forma parte de los seres vivos y se clasifica como una biomolécula inorgánica?",
+        "options": [
+            "Proteínas",
+            "Carbohidratos",
+            "Sales minerales",
+            "Ácidos nucleicos"
+        ],
+        "answer": "Sales minerales"
+    },
+    {
+        "question": "¿Qué tipo de tejido es responsable de transmitir las señales eléctricas en el cuerpo humano?",
+        "options": [
+            "Tejido epitelial",
+            "Tejido conjuntivo",
+            "Tejido muscular",
+            "Tejido nervioso"
+        ],
+        "answer": "Tejido nervioso"
+    },
+    {
+        "question": "¿Cuál es la función principal del aparato de Golgi en la célula?",
+        "options": [
+            "Procesar y distribuir proteínas",
+            "Digerir biomoléculas",
+            "Fabricar proteínas",
+            "Proporcionar energía a la célula"
+        ],
+        "answer": "Procesar y distribuir proteínas"
+    },
+    {
+        "question": "¿Cuál de las siguientes ramas de la anatomía se enfoca en estudiar las estructuras que pueden observarse a simple vista?",
+        "options": [
+            "Anatomía Topográfica",
+            "Anatomía Microscópica",
+            "Anatomía Descriptiva",
+            "Anatomía Comparada"
+        ],
+        "answer": "Anatomía Descriptiva"
+    },
+    {
+        "question": "¿Cuál es la unidad básica de vida?",
+        "options": [
+            "Célula",
+            "Tejido",
+            "Órgano",
+            "Sistema"
+        ],
+        "answer": "Célula"
+    },
+    {
+        "question": "¿Cuál es la función principal de los lisosomas en la célula?",
+        "options": [
+            "Procesar y distribuir proteínas",
+            "Digerir biomoléculas",
+            "Fabricar proteínas",
+            "Proporcionar energía a la célula"
+        ],
+        "answer": "Digerir biomoléculas"
+    },
+    {
+        "question": "¿Cuál de las siguientes estructuras se encuentra en el citoplasma y participa en la división celular?",
+        "options": [
+            "Reticuloendoplasmático",
+            "Mitocondria",
+            "Centriolo",
+            "Aparato de Golgi"
+        ],
+        "answer": "Centriolo"
+    },
+    {
+        "question": "¿Cuál es el nivel de organización estructural que se refiere a átomos y moléculas?",
+        "options": [
+            "Nivel de Sistema o Aparato",
+            "Nivel Celular",
+            "Nivel de Organismo",
+            "Nivel Tisular"
+        ],
+        "answer": "Nivel Celular"
+    },
+    {
+        "question": "¿Cuál de las siguientes ramas de la fisiología estudia las funciones de los diferentes sistemas del cuerpo humano?",
+        "options": [
+            "Fisiología Celular",
+            "Fisiología Tisular",
+            "Fisiología Orgánica",
+            "Fisiología Sistémica"
+        ],
+        "answer": "Fisiología Sistémica"
+    },
+    {
+        "question": "¿Cuál es el componente principal de los eritrocitos?",
+        "options": [
+            "Hemoglobina",
+            "Clorofila",
+            "Ácido nucleico",
+            "Proteína"
+        ],
+        "answer": "Hemoglobina"
+    },
+    {
+        "question": "¿Cuál de las siguientes funciones NO corresponde a los eritrocitos?",
+        "options": [
+            "Transportar oxígeno en el cuerpo",
+            "Combatir enfermedades",
+            "Regular la temperatura corporal",
+            "Coagular la sangre"
+        ],
+        "answer": "Combatir enfermedades"
+    },
+    {
+        "question": "¿Cuál es la función principal del retículo endoplasmático en la célula?",
+        "options": [
+            "Procesar y distribuir proteínas",
+            "Digerir biomoléculas",
+            "Fabricar proteínas",
+            "Proporcionar energía a la célula"
+        ],
+        "answer": "Procesar y distribuir proteínas"
+    },
+    {
+        "question": "¿Qué molécula forma parte de los seres vivos y tiene una estructura química homogénea, sirviendo como combustible en procesos metabólicos?",
+        "options": [
+            "Sales minerales",
+            "Proteínas",
+            "Carbohidratos",
+            "Ácidos nucleicos"
+        ],
+        "answer": "Carbohidratos"
+    },
+    {
+        "question": "¿Cuál de los siguientes órganos forma parte del sistema digestivo?",
+        "options": [
+            "Pulmones",
+            "Hígado",
+            "Corazón",
+            "Cerebro"
+        ],
+        "answer": "Hígado"
+    },
+    {
+        "question": "¿Cuál es la función principal de las proteínas en el cuerpo humano?",
+        "options": [
+            "Proporcionar energía",
+            "Formar estructuras celulares",
+            "Almacenar información genética",
+            "Regular la temperatura corporal"
+        ],
+        "answer": "Formar estructuras celulares"
+    },
+    {
+        "question": "¿Cuál es el tejido responsable de la contracción y relajación muscular?",
+        "options": [
+            "Tejido epitelial",
+            "Tejido conectivo",
+            "Tejido muscular",
+            "Tejido nervioso"
+        ],
+        "answer": "Tejido muscular"
+    },
+    {
+        "question": "¿Cuál es el plano anatómico que divide al cuerpo en lado izquierdo y derecho?",
+        "options": [
+            "Plano Sagital",
+            "Plano Coronal",
+            "Plano Transversal",
+            "Plano Horizontal"
+        ],
+        "answer": "Plano Sagital"
+    },
+    {
+        "question": "¿Cuál es el nivel de organización estructural que se refiere a la organización de varias células para formar tejidos?",
         "options": [
             "Nivel Celular",
             "Nivel de Sistema o Aparato",
@@ -140,223 +220,93 @@
         "answer": "Nivel Tisular"
     },
     {
-        "question": "¿Cuál de las siguientes moléculas forma parte de los seres vivos y se clasifica como una biomolécula orgánica?",
+        "question": "¿Cuál de las siguientes moléculas forma parte de los seres vivos y se clasifica como una biomolécula orgánica insoluble en agua?",
         "options": [
             "Sales minerales",
+            "Proteínas",
             "Carbohidratos",
-            "Lípidos",
-            "Ácidos nucleicos"
+            "Lípidos"
         ],
-        "answer": "Carbohidratos"
+        "answer": "Lípidos"
     },
     {
-        "question": "¿Cuál de las siguientes ramas de la anatomía se enfoca en estudiar las funciones de las células?",
+        "question": "¿Cuál de las siguientes ramas de la anatomía se enfoca en estudiar comparativamente las estructuras de los animales y del ser humano?",
         "options": [
             "Anatomía Descriptiva",
             "Anatomía Comparada",
-            "Anatomía Macroscópica",
-            "Anatomía Microscópica"
+            "Anatomía Microscópica",
+            "Anatomía Topográfica"
         ],
-        "answer": "Anatomía Microscópica"
+        "answer": "Anatomía Comparada"
     },
     {
-        "question": "¿Cuál es la función principal de los eritrocitos en la sangre?",
+        "question": "¿Cuál de las siguientes ramas de la fisiología estudia las funciones de las células?",
         "options": [
-            "Combatir enfermedades",
-            "Regular la temperatura corporal",
-            "Coagular la sangre",
-            "Transportar oxígeno en el cuerpo"
+            "Fisiología Celular",
+            "Fisiología Tisular",
+            "Fisiología Orgánica",
+            "Fisiología Sistémica"
         ],
-        "answer": "Transportar oxígeno en el cuerpo"
+        "answer": "Fisiología Celular"
     },
     {
-        "question": "¿Qué nivel de organización estructural se refiere a la organización de varios órganos para desempeñar funciones específicas?",
+        "question": "¿Cuál es el nivel de organización estructural que se refiere a la organización de varios sistemas para formar un organismo completo?",
         "options": [
             "Nivel Celular",
             "Nivel de Sistema o Aparato",
             "Nivel Tisular",
             "Nivel de Organismo"
         ],
-        "answer": "Nivel de Sistema o Aparato"
+        "answer": "Nivel de Organismo"
     },
     {
-        "question": "¿Cuál es la biomolécula inorgánica que forma parte de los seres vivos?",
+        "question": "¿Cuál de las siguientes moléculas forma parte de los seres vivos y se clasifica como una biomolécula que forma las estructuras celulares y permite reacciones químicas en el metabolismo?",
         "options": [
+            "Sales minerales",
             "Proteínas",
             "Carbohidratos",
-            "Sales minerales",
             "Ácidos nucleicos"
         ],
-        "answer": "Sales minerales"
+        "answer": "Proteínas"
     },
     {
-        "question": "¿Cuál de los siguientes orgánulos es responsable de procesar y distribuir proteínas a todas las partes de la célula?",
+        "question": "¿Cuál de las siguientes estructuras se encuentra en el citoplasma y participa en la síntesis de proteínas?",
         "options": [
-            "Retículo Endoplásmico",
+            "Reticuloendoplasmático",
             "Mitocondria",
             "Centriolo",
             "Aparato de Golgi"
         ],
-        "answer": "Aparato de Golgi"
+        "answer": "Reticuloendoplasmático"
     },
     {
-        "question": "¿Qué nivel de organización estructural se refiere a la unidad básica de vida, que incluye citoplasma, núcleo y membrana?",
+        "question": "¿Cuál de las siguientes funciones NO corresponde a las proteínas?",
         "options": [
-            "Nivel Celular",
-            "Nivel de Sistema o Aparato",
-            "Nivel Tisular",
-            "Nivel de Organismo"
+            "Formar estructuras celulares",
+            "Almacenar información genética",
+            "Facilitar reacciones químicas",
+            "Actuar como enzimas"
         ],
-        "answer": "Nivel Celular"
+        "answer": "Almacenar información genética"
     },
     {
-        "question": "¿Cuál de las siguientes moléculas forma parte de los seres vivos y se clasifica como una biomolécula orgánica?",
+        "question": "¿Cuál es el plano anatómico que divide al cuerpo en anterior (ventral) y posterior (dorsal)?",
         "options": [
-            "Sales minerales",
-            "Carbohidratos",
-            "Lípidos",
-            "Ácidos nucleicos"
+            "Plano Sagital",
+            "Plano Coronal",
+            "Plano Transversal",
+            "Plano Horizontal"
         ],
-        "answer": "Carbohidratos"
+        "answer": "Plano Coronal"
     },
     {
-        "question": "¿Cuál de las siguientes ramas de la anatomía se enfoca en estudiar las funciones de las células?",
+        "question": "¿Cuál es el tejido que recubre la superficie externa del cuerpo y las cavidades internas?",
         "options": [
-            "Anatomía Descriptiva",
-            "Anatomía Comparada",
-            "Anatomía Macroscópica",
-            "Anatomía Microscópica"
+            "Tejido epitelial",
+            "Tejido conectivo",
+            "Tejido muscular",
+            "Tejido nervioso"
         ],
-        "answer": "Anatomía Microscópica"
-    },
-    {
-        "question": "¿Cuál es la función principal de los eritrocitos en la sangre?",
-        "options": [
-            "Combatir enfermedades",
-            "Regular la temperatura corporal",
-            "Coagular la sangre",
-            "Transportar oxígeno en el cuerpo"
-        ],
-        "answer": "Transportar oxígeno en el cuerpo"
-    },
-    {
-        "question": "¿Qué nivel de organización estructural se refiere a la organización de varios órganos para desempeñar funciones específicas?",
-        "options": [
-            "Nivel Celular",
-            "Nivel de Sistema o Aparato",
-            "Nivel Tisular",
-            "Nivel de Organismo"
-        ],
-        "answer": "Nivel de Sistema o Aparato"
-    },
-    {
-        "question": "¿Cuál es la biomolécula inorgánica que forma parte de los seres vivos?",
-        "options": [
-            "Proteínas",
-            "Carbohidratos",
-            "Sales minerales",
-            "Ácidos nucleicos"
-        ],
-        "answer": "Sales minerales"
-    },
-    {
-        "question": "¿Cuál de los siguientes orgánulos es responsable de procesar y distribuir proteínas a todas las partes de la célula?",
-        "options": [
-            "Retículo Endoplásmico",
-            "Mitocondria",
-            "Centriolo",
-            "Aparato de Golgi"
-        ],
-        "answer": "Aparato de Golgi"
-    },
-    {
-        "question": "¿Qué nivel de organización estructural se refiere a la unidad básica de vida, que incluye citoplasma, núcleo y membrana?",
-        "options": [
-            "Nivel Celular",
-            "Nivel de Sistema o Aparato",
-            "Nivel Tisular",
-            "Nivel de Organismo"
-        ],
-        "answer": "Nivel Celular"
-    },
-    {
-        "question": "¿Cuál de las siguientes moléculas forma parte de los seres vivos y se clasifica como una biomolécula orgánica?",
-        "options": [
-            "Sales minerales",
-            "Carbohidratos",
-            "Lípidos",
-            "Ácidos nucleicos"
-        ],
-        "answer": "Carbohidratos"
-    },
-    {
-        "question": "¿Cuál de las siguientes ramas de la anatomía se enfoca en estudiar las funciones de las células?",
-        "options": [
-            "Anatomía Descriptiva",
-            "Anatomía Comparada",
-            "Anatomía Macroscópica",
-            "Anatomía Microscópica"
-        ],
-        "answer": "Anatomía Microscópica"
-    },
-    {
-        "question": "¿Cuál es la función principal de los eritrocitos en la sangre?",
-        "options": [
-            "Combatir enfermedades",
-            "Regular la temperatura corporal",
-            "Coagular la sangre",
-            "Transportar oxígeno en el cuerpo"
-        ],
-        "answer": "Transportar oxígeno en el cuerpo"
-    },
-    {
-        "question": "¿Qué nivel de organización estructural se refiere a la organización de varios órganos para desempeñar funciones específicas?",
-        "options": [
-            "Nivel Celular",
-            "Nivel de Sistema o Aparato",
-            "Nivel Tisular",
-            "Nivel de Organismo"
-        ],
-        "answer": "Nivel de Sistema o Aparato"
-    },
-    {
-        "question": "¿Cuál es la biomolécula inorgánica que forma parte de los seres vivos?",
-        "options": [
-            "Proteínas",
-            "Carbohidratos",
-            "Sales minerales",
-            "Ácidos nucleicos"
-        ],
-        "answer": "Sales minerales"
-    },
-    {
-        "question": "¿Cuál de los siguientes orgánulos es responsable de procesar y distribuir proteínas a todas las partes de la célula?",
-        "options": [
-            "Retículo Endoplásmico",
-            "Mitocondria",
-            "Centriolo",
-            "Aparato de Golgi"
-        ],
-        "answer": "Aparato de Golgi"
-    },
-    {
-        "question": "¿Qué nivel de organización estructural se refiere a la unidad básica de vida, que incluye citoplasma, núcleo y membrana?",
-        "options": [
-            "Nivel Celular",
-            "Nivel de Sistema o Aparato",
-            "Nivel Tisular",
-            "Nivel de Organismo"
-        ],
-        "answer": "Nivel Celular"
-    },
-    {
-        "question": "¿Cuál de las siguientes moléculas forma parte de los seres vivos y se clasifica como una biomolécula orgánica?",
-        "options": [
-            "Sales minerales",
-            "Carbohidratos",
-            "Lípidos",
-            "Ácidos nucleicos"
-        ],
-        "answer": "Carbohidratos"
+        "answer": "Tejido epitelial"
     }
 ]
