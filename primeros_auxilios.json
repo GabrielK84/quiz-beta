@@ -1,22 +1,102 @@
 [
     {
-        "question": "¿Cuál es la maniobra de primeros auxilios para desobstruir las vías respiratorias?",
+        "question": "¿Qué es la ética?",
         "options": [
-            "Maniobra de Heimlich",
-            "Compresión torácica",
-            "Respiración boca a boca",
-            "Compresión abdominal"
+            "Una ciencia que estudia la conducta animal",
+            "Una rama de la filosofía que estudia la conducta humana, lo correcto e incorrecto, lo bueno y lo malo",
+            "Una disciplina que se enfoca en la tecnología",
+            "Un estudio de las leyes físicas"
         ],
-        "answer": "Maniobra de Heimlich"
+        "answer": "Una rama de la filosofía que estudia la conducta humana, lo correcto e incorrecto, lo bueno y lo malo"
     },
     {
-        "question": "¿Cuál es la forma correcta de tratar una quemadura de primer grado?",
+        "question": "¿Cuáles son las teorías de la ética?",
         "options": [
-            "Aplicar agua fría",
-            "Frotar con hielo",
-            "Cubrir con algodón",
-            "Aplicar pomada"
+            "Teoría Griega, Teoría Cristiana, Teoría Moderna",
+            "Teoría Científica, Teoría Racional, Teoría Práctica",
+            "Teoría Filosófica, Teoría Social, Teoría Personal",
+            "Teoría Histórica, Teoría Cultural, Teoría Social"
         ],
-        "answer": "Aplicar agua fría"
+        "answer": "Teoría Griega, Teoría Cristiana, Teoría Moderna"
+    },
+    {
+        "question": "¿Qué estudia la ética?",
+        "options": [
+            "La conducta animal",
+            "La conducta humana",
+            "Las leyes naturales",
+            "Los fenómenos físicos"
+        ],
+        "answer": "La conducta humana"
+    },
+    {
+        "question": "¿Cuál era la teoría de Aristóteles?",
+        "options": [
+            "La teoría del mundo de las ideas",
+            "La teoría de la ética de la felicidad",
+            "La teoría de los valores",
+            "La teoría de la justicia"
+        ],
+        "answer": "La teoría de la ética de la felicidad"
+    },
+    {
+        "question": "La frase 'el mundo de las ideas', ¿a qué teoría corresponde?",
+        "options": [
+            "Teoría de Aristóteles",
+            "Teoría de Platón",
+            "Teoría de Sócrates",
+            "Teoría de Epicuro"
+        ],
+        "answer": "Teoría de Platón"
+    },
+    {
+        "question": "¿Qué es el concepto de Hombre Personalizado?",
+        "options": [
+            "El hombre verdaderamente realizado y personalizado sabe lo que quiere",
+            "Permanece fiel a sí mismo",
+            "No se pierde en la masa",
+            "No se deja seducir por el prestigio"
+        ],
+        "answer": "El hombre verdaderamente realizado y personalizado sabe lo que quiere"
+    },
+    {
+        "question": "¿Qué caracteriza al Hombre Light?",
+        "options": [
+            "Es un hombre poco informado, con escasez de educación",
+            "Todo le interesa pero a nivel superficial",
+            "Lo acepta todo pero carece de criterio sólido",
+            "Utiliza frases como 'todo vale', 'qué más da', 'las cosas han cambiado'"
+        ],
+        "answer": "Es un hombre poco informado, con escasez de educación"
+    },
+    {
+        "question": "¿Cuáles son las características de la ética como disciplina?",
+        "options": [
+            "El racional, el práctico, el científico",
+            "El emocional, el práctico, el teórico",
+            "El lógico, el empírico, el científico",
+            "El crítico, el práctico, el racional"
+        ],
+        "answer": "El racional, el práctico, el científico"
+    },
+    {
+        "question": "¿Qué es el juicio moral?",
+        "options": [
+            "Un análisis de las leyes físicas",
+            "La evaluación mental de una acción, conducta o decisión en términos morales",
+            "Una teoría científica sobre la moral",
+            "Un juicio basado en la ética social"
+        ],
+        "answer": "La evaluación mental de una acción, conducta o decisión en términos morales"
+    },
+    {
+        "question": "¿Cuáles son los tipos de valores?",
+        "options": [
+            "Personales, Políticos, Éticos, Familiares, Religiosos",
+            "Personales, Sociales, Económicos, Educativos",
+            "Culturales, Sociales, Políticos, Económicos",
+            "Familiares, Sociales, Éticos, Históricos"
+        ],
+        "answer": "Personales, Políticos, Éticos, Familiares, Religiosos"
     }
 ]
